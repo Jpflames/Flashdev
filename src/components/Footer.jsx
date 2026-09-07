@@ -4,7 +4,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-brand-darker border-t border-brand-dark pt-16 pb-8">
+    <footer className="bg-gradient-to-t from-brand-primary/10 to-transparent border-t border-brand-border pt-16 pb-8">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="lg:col-span-1">
@@ -49,7 +49,7 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="border-t border-brand-dark pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-brand-border/40">
+        <div className="border-t border-brand-border pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-brand-border/40">
           <p>&copy; {currentYear} Flashdev Technologies. All rights reserved.</p>
         </div>
       </div>
