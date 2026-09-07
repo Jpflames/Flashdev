@@ -319,28 +319,28 @@ export default function Home() {
                 <div className="w-12 h-12 rounded-full bg-brand-primary/20 flex items-center justify-center text-brand-primary font-bold">01</div>
                 <h3 className="text-2xl font-bold font-heading">FAST DELIVERY</h3>
               </div>
-              <p className="text-brand-border/70 text-lg leading-relaxed pl-16">We understand that speed matters. We deliver robust solutions quickly without compromising on quality or performance.</p>
+              <p className="text-white/90 text-lg leading-relaxed pl-16">We understand that speed matters. We deliver robust solutions quickly without compromising on quality or performance.</p>
             </motion.div>
             <motion.div variants={fadeInUp}>
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-12 h-12 rounded-full bg-brand-primary/20 flex items-center justify-center text-brand-primary font-bold">02</div>
                 <h3 className="text-2xl font-bold font-heading">SMART SOLUTIONS</h3>
               </div>
-              <p className="text-brand-border/70 text-lg leading-relaxed pl-16">We leverage the latest technology and intelligent architectures to build solutions that solve complex problems gracefully.</p>
+              <p className="text-white/90 text-lg leading-relaxed pl-16">We leverage the latest technology and intelligent architectures to build solutions that solve complex problems gracefully.</p>
             </motion.div>
             <motion.div variants={fadeInUp}>
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-12 h-12 rounded-full bg-brand-primary/20 flex items-center justify-center text-brand-primary font-bold">03</div>
                 <h3 className="text-2xl font-bold font-heading">RELIABLE SUPPORTS</h3>
               </div>
-              <p className="text-brand-border/70 text-lg leading-relaxed pl-16">Our partnership doesn't end at deployment. We provide dedicated, reliable support to ensure your technology runs flawlessly.</p>
+              <p className="text-white/90 text-lg leading-relaxed pl-16">Our partnership doesn't end at deployment. We provide dedicated, reliable support to ensure your technology runs flawlessly.</p>
             </motion.div>
             <motion.div variants={fadeInUp}>
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-12 h-12 rounded-full bg-brand-primary/20 flex items-center justify-center text-brand-primary font-bold">04</div>
                 <h3 className="text-2xl font-bold font-heading">REAL RESULTS</h3>
               </div>
-              <p className="text-brand-border/70 text-lg leading-relaxed pl-16">We don't just build software; we drive outcomes. Everything we create is focused on generating tangible results for your business.</p>
+              <p className="text-white/90 text-lg leading-relaxed pl-16">We don't just build software; we drive outcomes. Everything we create is focused on generating tangible results for your business.</p>
             </motion.div>
           </motion.div>
         </div>
