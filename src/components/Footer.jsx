@@ -13,14 +13,14 @@ export default function Footer() {
                 FLASH<span className="text-brand-primary">DEV</span>
               </span>
             </Link>
-            <p className="text-brand-border/60 mb-6 max-w-sm">
+            <p className="text-brand-gray mb-6 max-w-sm">
               Building practical digital solutions for businesses, organizations and ambitious ideas.
             </p>
           </div>
           
           <div>
             <h4 className="text-white font-bold mb-6 font-heading tracking-wide uppercase text-sm">Navigation</h4>
-            <ul className="space-y-4 text-brand-border/60">
+            <ul className="space-y-4 text-brand-gray">
               <li><Link to="/" className="hover:text-brand-primary transition-colors">Home</Link></li>
               <li><Link to="/about" className="hover:text-brand-primary transition-colors">About</Link></li>
               <li><Link to="/services" className="hover:text-brand-primary transition-colors">Services</Link></li>
@@ -32,7 +32,7 @@ export default function Footer() {
           
           <div>
             <h4 className="text-white font-bold mb-6 font-heading tracking-wide uppercase text-sm">Company</h4>
-            <ul className="space-y-4 text-brand-border/60">
+            <ul className="space-y-4 text-brand-gray">
               <li>Flashdev Technologies</li>
               <li><a href="mailto:flashdevtechnologies@gmail.com" className="hover:text-brand-primary transition-colors">flashdevtechnologies@gmail.com</a></li>
             </ul>
@@ -40,7 +40,7 @@ export default function Footer() {
 
           <div>
             <h4 className="text-white font-bold mb-6 font-heading tracking-wide uppercase text-sm">Socials</h4>
-            <ul className="space-y-4 text-brand-border/60">
+            <ul className="space-y-4 text-brand-gray">
               <li><a href="#" className="hover:text-brand-primary transition-colors">LinkedIn</a></li>
               <li><a href="#" className="hover:text-brand-primary transition-colors">X</a></li>
               <li><a href="#" className="hover:text-brand-primary transition-colors">Instagram</a></li>
@@ -49,7 +49,7 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="border-t border-brand-border pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-brand-border/40">
+        <div className="border-t border-brand-border pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-brand-gray/60">
           <p>&copy; {currentYear} Flashdev Technologies. All rights reserved.</p>
         </div>
       </div>
