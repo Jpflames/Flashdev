@@ -100,7 +100,7 @@ export default function Home() {
               <motion.div 
                 animate={{ y: [0, -25, 0] }}
                 transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 2 }}
-                className="absolute bottom-20 -right-8 bg-brand-darker p-5 rounded-xl shadow-2xl flex items-center gap-4 z-20"
+                className="absolute bottom-20 -right-4 bg-brand-light border border-brand-border p-5 rounded-xl shadow-2xl flex items-center gap-4 z-20"
               >
                 <div className="w-3 h-3 bg-brand-primary rounded-full animate-pulse"></div>
                 <p className="text-sm font-bold text-white tracking-wide">Deployment Successful</p>
@@ -293,7 +293,7 @@ export default function Home() {
       </section>
 
       {/* Why Flashdev */}
-      <section className="py-24 bg-brand-darker text-white">
+      <section className="py-24 bg-brand-accent/30 border-y border-brand-border text-brand-dark">
         <div className="container mx-auto px-6 lg:px-12">
           <motion.div 
             initial="hidden"
