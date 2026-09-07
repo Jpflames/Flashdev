@@ -31,7 +31,7 @@ export default function Contact() {
       exit={{ opacity: 0 }}
       className="pt-24 min-h-screen bg-brand-light"
     >
-      <section className="py-20 bg-white border-b border-brand-border">
+      <section className="py-20 bg-transparent border-b border-brand-border">
         <div className="container mx-auto px-6 lg:px-12">
           <motion.div variants={staggerContainer} className="max-w-4xl">
             <motion.div variants={fadeUp}>
@@ -95,7 +95,7 @@ export default function Contact() {
               whileInView="visible"
               viewport={{ once: true }}
               variants={fadeUp}
-              className="bg-white border border-brand-border p-8 md:p-12 rounded-3xl shadow-lg"
+              className="bg-brand-light border border-brand-border p-8 md:p-12 rounded-3xl shadow-lg"
             >
               <h3 className="text-2xl font-bold font-heading mb-8 text-brand-darker">Send an Inquiry</h3>
               <form onSubmit={handleSubmit} className="space-y-6">

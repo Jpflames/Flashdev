@@ -95,7 +95,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-32 bg-white text-center">
+      <section className="py-32 bg-transparent text-center">
         <motion.div 
           initial="hidden"
           whileInView="visible"

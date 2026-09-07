@@ -75,7 +75,7 @@ export default function Home() {
                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
                 className="absolute inset-0 flex items-center justify-center"
               >
-                <div className="relative w-full h-full max-w-lg mx-auto rounded-3xl overflow-hidden shadow-2xl border-4 border-white/50 bg-white">
+                <div className="relative w-full h-full max-w-lg mx-auto rounded-3xl overflow-hidden shadow-2xl border-4 border-brand-dark/20 bg-brand-light">
                   <img src="/images/hero.jpg" alt="Flashdev Technologies" className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-tr from-brand-accent/20 to-transparent mix-blend-overlay"></div>
                 </div>
@@ -85,7 +85,7 @@ export default function Home() {
               <motion.div 
                 animate={{ y: [0, 20, 0] }}
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                className="absolute top-32 -left-12 bg-white p-4 rounded-xl shadow-xl border border-brand-border flex items-center gap-4 z-20"
+                className="absolute top-32 -left-12 bg-brand-light p-4 rounded-xl shadow-xl border border-brand-border flex items-center gap-4 z-20"
               >
                 <div className="w-12 h-12 bg-brand-primary/10 rounded-full flex items-center justify-center">
                   <Activity className="text-brand-primary" />
@@ -111,7 +111,7 @@ export default function Home() {
       </section>
 
       {/* Trust / Capability Strip */}
-      <div className="border-y border-brand-border bg-white/80 backdrop-blur-md py-6 overflow-hidden">
+      <div className="border-y border-brand-border bg-brand-light/80 backdrop-blur-md py-6 overflow-hidden">
         <div className="container mx-auto px-6 lg:px-12">
           <motion.div 
             initial={{ opacity: 0 }}
@@ -191,7 +191,7 @@ export default function Home() {
                 key={idx} 
                 variants={scaleIn}
                 whileHover={{ y: -10, transition: { duration: 0.2 } }}
-                className="group p-8 border border-brand-border bg-white rounded-2xl shadow-sm transition-all duration-300 hover:border-brand-primary/30 hover:shadow-xl flex flex-col h-full"
+                className="group p-8 border border-brand-border bg-brand-light rounded-2xl shadow-sm transition-all duration-300 hover:border-brand-primary/30 hover:shadow-xl flex flex-col h-full"
               >
                 <div className="flex justify-between items-start mb-6">
                   <div className="p-3 bg-brand-light rounded-xl group-hover:bg-brand-primary/10 transition-colors">
@@ -368,12 +368,12 @@ export default function Home() {
             <div className="hidden md:block absolute top-8 left-[10%] w-[80%] h-0.5 bg-brand-border"></div>
             
             <motion.div variants={fadeInUp} className="relative z-10 text-center">
-              <div className="w-16 h-16 bg-white border-2 border-brand-primary rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg text-brand-primary font-bold text-xl">01</div>
+              <div className="w-16 h-16 bg-brand-light border-2 border-brand-primary rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg text-brand-primary font-bold text-xl">01</div>
               <h3 className="text-xl font-bold mb-3 text-brand-darker font-heading">DISCOVER</h3>
               <p className="text-brand-gray text-sm leading-relaxed">Understand the business, users and problem deeply before writing a single line of code.</p>
             </motion.div>
             <motion.div variants={fadeInUp} className="relative z-10 text-center">
-              <div className="w-16 h-16 bg-white border-2 border-brand-primary rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg text-brand-primary font-bold text-xl">02</div>
+              <div className="w-16 h-16 bg-brand-light border-2 border-brand-primary rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg text-brand-primary font-bold text-xl">02</div>
               <h3 className="text-xl font-bold mb-3 text-brand-darker font-heading">DESIGN</h3>
               <p className="text-brand-gray text-sm leading-relaxed">Define the experience, architecture and solution visually and technically.</p>
             </motion.div>
@@ -438,7 +438,7 @@ export default function Home() {
           <p className="text-xl text-brand-primary-light mb-12 max-w-2xl mx-auto">
             Tell us what you're trying to build, improve or automate. Your idea deserves more than a prototype.
           </p>
-          <Button to="/contact" size="lg" className="bg-white text-brand-primary hover:bg-brand-light">Start a Project &rarr;</Button>
+          <Button to="/contact" size="lg" className="bg-brand-dark text-brand-light hover:bg-brand-primary hover:text-white border border-brand-border">Start a Project &rarr;</Button>
         </motion.div>
       </section>
     </motion.div>

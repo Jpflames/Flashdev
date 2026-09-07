@@ -51,7 +51,7 @@ export default function AdminLayout({ children }) {
   return (
     <div className="min-h-screen bg-brand-light flex flex-col md:flex-row">
       {/* Sidebar */}
-      <aside className="w-full md:w-64 bg-white border-r border-brand-border flex flex-col pt-24 md:pt-8 md:min-h-screen z-40">
+      <aside className="w-full md:w-64 bg-brand-light border-r border-brand-border flex flex-col pt-24 md:pt-8 md:min-h-screen z-40">
         <div className="px-6 mb-8 hidden md:block">
           <Link to="/" className="inline-block">
             <span className="font-heading font-bold text-xl tracking-tight text-brand-darker">

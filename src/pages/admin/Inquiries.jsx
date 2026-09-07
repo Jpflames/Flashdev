@@ -50,7 +50,7 @@ export default function Inquiries() {
         </div>
       </div>
 
-      <div className="bg-white border border-brand-border rounded-xl overflow-hidden shadow-sm">
+      <div className="bg-brand-light border border-brand-border rounded-xl overflow-hidden shadow-sm">
         <div className="overflow-x-auto">
           <table className="w-full text-left border-collapse">
             <thead>

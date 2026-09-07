@@ -31,19 +31,19 @@ export default function Dashboard() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-        <div className="bg-white border border-brand-border rounded-xl p-6 shadow-sm">
+        <div className="bg-brand-light border border-brand-border rounded-xl p-6 shadow-sm">
           <h3 className="text-brand-gray text-sm font-medium mb-2 uppercase tracking-wider">Total Inquiries</h3>
           <p className="text-4xl font-heading font-bold text-brand-darker">{loading ? '-' : stats.total}</p>
         </div>
-        <div className="bg-white border border-brand-border rounded-xl p-6 shadow-sm">
+        <div className="bg-brand-light border border-brand-border rounded-xl p-6 shadow-sm">
           <h3 className="text-brand-gray text-sm font-medium mb-2 uppercase tracking-wider">New Inquiries</h3>
           <p className="text-4xl font-heading font-bold text-brand-primary">{loading ? '-' : stats.new}</p>
         </div>
-        <div className="bg-white border border-brand-border rounded-xl p-6 shadow-sm">
+        <div className="bg-brand-light border border-brand-border rounded-xl p-6 shadow-sm">
           <h3 className="text-brand-gray text-sm font-medium mb-2 uppercase tracking-wider">Projects</h3>
           <p className="text-4xl font-heading font-bold text-brand-darker">2</p>
         </div>
-        <div className="bg-white border border-brand-border rounded-xl p-6 shadow-sm">
+        <div className="bg-brand-light border border-brand-border rounded-xl p-6 shadow-sm">
           <h3 className="text-brand-gray text-sm font-medium mb-2 uppercase tracking-wider">Team Members</h3>
           <p className="text-4xl font-heading font-bold text-brand-darker">7</p>
         </div>

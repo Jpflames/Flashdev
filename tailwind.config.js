@@ -17,14 +17,15 @@ export default {
           'accent-dark': '#000000',
           'accent-light': '#F5F5F5',
           
-          // Deep Blue-Grey for text/headings (not black)
-          dark: '#1E293B',
-          darker: '#0F172A',
+          // Dark backgrounds (formerly used for text)
+          dark: '#F1F5F9', // Primary text
+          darker: '#FFFFFF', // Headings / Pure white
           
-          // Light backgrounds
-          light: '#F8FAFC',
-          gray: '#64748B',
-          border: '#E2E8F0',
+          // Cards & Surfaces (formerly used for light backgrounds)
+          light: '#0A0A0A', // Deep background
+          gray: '#94A3B8', // Secondary text
+          border: '#1E293B', // Subtle borders
+
         },
       },
       fontFamily: {

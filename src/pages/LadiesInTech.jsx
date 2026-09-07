@@ -25,7 +25,7 @@ export default function LadiesInTech() {
       exit={{ opacity: 0 }}
       className="pt-24 min-h-screen bg-brand-light"
     >
-      <section className="py-20 bg-white border-b border-brand-border overflow-hidden relative">
+      <section className="py-20 bg-transparent border-b border-brand-border overflow-hidden relative">
         <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-brand-primary/10 to-transparent -z-10"></div>
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <motion.div variants={staggerContainer} className="max-w-4xl">
@@ -44,7 +44,7 @@ export default function LadiesInTech() {
         </div>
       </section>
 
-      <section className="py-12 bg-white">
+      <section className="py-12 bg-transparent">
         <div className="container mx-auto px-6 lg:px-12">
            <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}
@@ -59,7 +59,7 @@ export default function LadiesInTech() {
         </div>
       </section>
 
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-transparent">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <motion.div 
@@ -127,7 +127,7 @@ export default function LadiesInTech() {
             <p className="text-brand-primary-light text-lg mb-10 leading-relaxed">
               Whether you are just starting your journey in tech or looking to level up your skills, we want to hear from you.
             </p>
-            <Button to="/contact" size="lg" className="bg-white text-brand-primary hover:bg-brand-light shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all">
+            <Button to="/contact" size="lg" className="bg-brand-dark text-brand-light border border-brand-border hover:bg-brand-primary hover:text-white shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all">
               Apply or Partner With Us
             </Button>
           </div>

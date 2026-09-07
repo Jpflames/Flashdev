@@ -40,7 +40,7 @@ export default function AdminLogin() {
           <h1 className="text-2xl font-bold font-heading uppercase text-brand-darker">Admin Access</h1>
         </div>
 
-        <div className="bg-white border border-brand-border rounded-xl p-8 shadow-2xl">
+        <div className="bg-brand-light border border-brand-border rounded-xl p-8 shadow-2xl">
           <form onSubmit={handleLogin} className="space-y-6">
             <div className="space-y-2">
               <label className="text-sm font-medium text-brand-gray">Email Address</label>

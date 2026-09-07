@@ -96,7 +96,7 @@ export default function Services() {
           <div className="max-w-3xl mx-auto bg-brand-primary rounded-3xl p-12 text-white shadow-2xl">
             <h2 className="text-4xl font-heading font-bold mb-6">Need a custom solution?</h2>
             <p className="text-brand-primary-light text-lg mb-10">We tailor our technical approach to your specific business requirements.</p>
-            <Button to="/contact" size="lg" className="bg-white text-brand-primary hover:bg-brand-light">
+            <Button to="/contact" size="lg" className="bg-brand-dark text-brand-light hover:bg-brand-primary hover:text-white border border-brand-border">
               Discuss Your Requirements &rarr;
             </Button>
           </div>

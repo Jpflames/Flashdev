@@ -40,7 +40,7 @@ export default function CaseStudy() {
       exit={{ opacity: 0 }}
       className="pt-24 min-h-screen bg-brand-light"
     >
-      <section className="py-16 md:py-24 bg-white border-b border-brand-border">
+      <section className="py-16 md:py-24 bg-transparent border-b border-brand-border">
         <div className="container mx-auto px-6 lg:px-12">
           <motion.div variants={staggerContainer} className="max-w-4xl">
             <motion.div variants={fadeUp}>
@@ -68,7 +68,7 @@ export default function CaseStudy() {
           transition={{ duration: 0.8 }}
           className="container mx-auto px-6 lg:px-12"
         >
-          <div className="aspect-video bg-white border border-brand-border rounded-3xl flex items-center justify-center overflow-hidden shadow-2xl">
+          <div className="aspect-video bg-brand-light border border-brand-border rounded-3xl flex items-center justify-center overflow-hidden shadow-2xl">
              {project.id === 'food-xpress' && (
                 <img src="/images/food_xpress.jpg" alt="Food Xpress" className="w-full h-full object-cover" />
              )}
@@ -82,7 +82,7 @@ export default function CaseStudy() {
         </motion.div>
       </section>
 
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-transparent">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
             <motion.div 
@@ -117,7 +117,7 @@ export default function CaseStudy() {
                 <h3 className="text-xl font-bold font-heading mb-6 text-brand-darker">Technologies Used</h3>
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map(tech => (
-                    <span key={tech} className="bg-white border border-brand-border text-brand-dark text-sm px-4 py-2 rounded-full font-medium shadow-sm">
+                    <span key={tech} className="bg-brand-light border border-brand-border text-brand-darker text-sm px-4 py-2 rounded-full font-medium shadow-sm">
                       {tech}
                     </span>
                   ))}
@@ -127,7 +127,7 @@ export default function CaseStudy() {
               <div className="bg-brand-primary text-white p-8 rounded-3xl shadow-xl">
                 <h3 className="text-xl font-bold font-heading mb-4">Start your project</h3>
                 <p className="text-brand-accent-light mb-6">Need a similar solution for your business?</p>
-                <Button to="/contact" variant="primary" className="w-full bg-white text-brand-accent hover:bg-brand-light">Get in touch</Button>
+                <Button to="/contact" variant="primary" className="w-full bg-brand-dark text-brand-light hover:bg-brand-primary hover:text-white border border-brand-border">Get in touch</Button>
               </div>
             </motion.div>
           </div>

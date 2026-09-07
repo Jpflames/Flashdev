@@ -32,11 +32,12 @@ export default function Navbar() {
   ];
 
   return (
-    <header 
+    <>
+      <header 
       className={cn(
         "fixed top-0 w-full z-50 transition-all duration-300 border-b",
         scrolled 
-          ? "bg-white/90 backdrop-blur-md border-brand-border py-4 shadow-sm" 
+          ? "bg-brand-light/90 backdrop-blur-md border-brand-border py-4 shadow-sm" 
           : "bg-transparent border-transparent py-6"
       )}
     >
@@ -73,28 +74,30 @@ export default function Navbar() {
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
-        {/* Mobile Nav Menu */}
-        <div 
-          className={cn(
-            "fixed inset-0 bg-white flex flex-col justify-center items-center space-y-8 transition-transform duration-300 ease-in-out lg:hidden",
-            isOpen ? "translate-x-0" : "translate-x-full"
-          )}
-        >
-          {navLinks.map((link) => (
-            <Link 
-              key={link.name} 
-              to={link.path}
-              className={cn(
-                "text-2xl font-heading font-bold transition-colors",
-                location.pathname === link.path ? "text-brand-primary" : "text-brand-dark"
-              )}
-            >
-              {link.name}
-            </Link>
-          ))}
-          <Button to="/contact" className="mt-8">Start a Project &rarr;</Button>
         </div>
+      </header>
+
+      {/* Mobile Nav Menu */}
+      <div 
+        className={cn(
+          "fixed inset-0 bg-brand-light flex flex-col justify-center items-center space-y-8 transition-transform duration-300 ease-in-out lg:hidden z-40",
+          isOpen ? "translate-x-0" : "translate-x-full"
+        )}
+      >
+        {navLinks.map((link) => (
+          <Link 
+            key={link.name} 
+            to={link.path}
+            className={cn(
+              "text-2xl font-heading font-bold transition-colors",
+              location.pathname === link.path ? "text-brand-primary" : "text-brand-dark"
+            )}
+          >
+            {link.name}
+          </Link>
+        ))}
+        <Button to="/contact" className="mt-8">Start a Project &rarr;</Button>
       </div>
-    </header>
+    </>
   );
 }
